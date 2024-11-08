@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>MY PORTOFOLIO</title>
+</head>
+<body>
+    
+    <!--header-->
+    <header>
+     <div class="main-container">
+        <div class="nav">
+            <div class="logo">
+                <a href="/">Fynnz</a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#services">Tentang Saya</a></li>
+                    <li><a href="#portfolios">Projek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li>
+                        <a href="findiresume.pdf" target="blank">
+                        <button class="btn">Resume</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--responsif navigasi-->
+            <div class="burger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </div>
+
+        <section id="hero">
+            <div class="hero-left">
+                <h3 class="pre-title">Halo, Nama Saya</h3>
+                <h1 class="hero-name"><span>AFRIANDI</span></h1>
+                <p>Mahasiswa Universitas Amikom Yogyakarta</p>
+            </div>
+            <div class="hero-right">
+                <img src="./images/portfolios/WhatsApp Image 2024-11-04 at 10.57.25.jpeg" alt="person walking">
+            </div>
+         </section>
+     </div>  
+    </header>
+    <!--end of header-->
+
+    <!-- tentang saya-->
+    <section id="services">
+        <div class="services main-container">
+            <h1 class="section-title services-title">Tentang Saya</h1>
+            <p style="color: white; text-align: center;">Saya adalah mahasiswa semester 7 di Universitas Amikom Yogyakarta yang sangat antusias dalam bidang pemrograman web. Ketertarikan saya terletak pada bagaimana teknologi web dapat digunakan untuk menciptakan pengalaman pengguna yang interaktif dan efisien. Saya senang mengasah keterampilan saya dalam membangun aplikasi web modern dan belajar berbagai framework serta teknologi terkini. Dengan semangat untuk terus berkembang dan berinovasi, saya siap menghadapi tantangan di dunia pemrograman web dan memberikan kontribusi terbaik di bidang ini</p>
+        </div>
+    </section>
+    <!-- end of tentang saya -->
+    
+    <!-- end of tentang saya -->
+
+   <!-- services -->
+<!-- Project Section Start -->
+<section id="portfolios">
+    <div class="container services">
+        <div class="text-center">
+            <h2 >Projek Saya</h2>
+        </div>
+        <div class="project-row">
+            <div class="project-card">
+                <a href="#" target="_blank">
+                    <img src="images/portfolios/portfolio1.jpg" class="card-img-top" alt="project1">
+                </a>
+                <div class="card-body">
+                    <p class="card-text">
+                        <a href="#" class="textdecor">Website Passion</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="#" target="_blank">
+                    <img src="images/portfolios/portfolio1.jpg" class="card-img-top" alt="project2">
+                </a>
+                <div class="card-body">
+                    <p class="card-text">
+                        <a href="#" class="textdecor">Website Tiketing</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of sevices -->
+
+
+    <!-- portfolio-->
+   
+    <!--end of portfolio -->
+
+
+    
+    <!--Contact-->
+    <section id="contact">
+        <h2 >Kontak Saya</h2>
+        <div class="contact main-container">
+         
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/meoqadpb" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div>
+                        <textarea 
+                        name="message" 
+                        id="message" 
+                        placeholder="Message"
+                        cols="30" 
+                        rows="10"
+                        ></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-right">
+                <!-- contact item1-->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Address</h4>
+                        <p> yogyakarta indonesia</p>
+                    </div>   
+                </div>
+                
+                <!-- contact item2 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Phone</h4>
+                        <p>085157765536</p>
+                    </div>   
+                </div>
+
+                <!-- contact item 3-->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Email</h4>
+                        <p>afriandifindi1@gmail.com</p>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--end of contact -->
+
+    <!-- footer -->
+    <footer>
+        <p>&#169; 2024 - Made by AFRIANDI</p>
+    </footer>
+
+
+
+    <!-- end of footer -->
+
+
+    <script src="script/main.js"></script>
+</body>
+</html>
